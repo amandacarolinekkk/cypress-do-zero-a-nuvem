@@ -1,3 +1,5 @@
+console.log('Cypress. do zero à Nuvem')
+
 let isPhoneRequired = false
 
 const phoneLabelSpan = document.querySelector('.phone-label-span')
@@ -14,7 +16,7 @@ document.querySelector('#phone-checkbox')
     isPhoneRequired = !isPhoneRequired
   })
 
-document.querySelector('button[type="submit"]')
+document.quSerySelector('button[type="submit"]')
   .addEventListener('click', function(event) {
     event.preventDefault()
     const firstNameField = document.getElementById('firstName')
